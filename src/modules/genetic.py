@@ -37,6 +37,8 @@ class Genetic:
         fitness_average = sum(fitness_array) / len(fitness_array)
         return fitness_ratio, fitness_average
 
+
+    #Retorna os dois melhores indices da população
     @staticmethod
     def roulette_selection(
         population: list[Chromosome],
